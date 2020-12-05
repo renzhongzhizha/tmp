@@ -302,12 +302,6 @@ Plug 'sbdchd/neoformat'
 
 
 
-" Markdown
-Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install_sync() }, 'for' :['markdown', 'vim-plug'] }
-"Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install_sync() }, 'for' :['markdown', 'vim-plug'] }
-Plug 'dhruvasagar/vim-table-mode', { 'on': 'TableModeToggle' }
-Plug 'vimwiki/vimwiki'
-
 
 
 " For general writing
@@ -346,7 +340,7 @@ call plug#end()
 " let ayucolor="mirage" " for mirage version of theme
 " let ayucolor="dark"   " for dark version of theme
 colorscheme snazzy
-set transparency=15
+" set transparency=15
 
 
 
@@ -661,7 +655,6 @@ let g:taskwiki_sort_orders={"C": "pri-"}
 let g:taskwiki_syntax = 'markdown'
 let g:taskwiki_markdown_syntax='markdown'
 let g:taskwiki_markup_syntax='markdown'
-source ~/.vim/snippits.vim
 
 
 
@@ -670,5 +663,3 @@ colorscheme snazzy
 
 
 set guifont=Monaco:h14
-
-
